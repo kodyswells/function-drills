@@ -187,7 +187,20 @@ console.log(nameGreeting);
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+function faveColorFinder (color) {
+  if(color === 'red') {
+    return 'red is a great color';
+  } else if (color === 'green') {
+    return 'green is a solid favorite color';
+  } else if (color === 'black') {
+    return 'so trendy';
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
+
+let colorRating = faveColorFinder('orange');
+console.log(colorRating);
 
 
 ////////////////// PROBLEM 12 ////////////////////
