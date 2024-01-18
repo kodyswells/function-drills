@@ -85,8 +85,14 @@ compareNums(1,2);
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+function add (arg1,arg2) {
+  let number1 = Number(arg1);
+  let number2 = Number(arg2);
 
+  return number1 + number2;
+}
+let sum = add(1,2);
+console.log(sum);
 
 ////////////////// PROBLEM 7 ////////////////////
 
