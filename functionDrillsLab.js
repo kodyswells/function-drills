@@ -249,7 +249,7 @@ console.log(oddChecker);
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+const bestMovie = title => title + ' is the best movie ever!'
 
 
 ////////////////// PROBLEM 15 ////////////////////
