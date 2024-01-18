@@ -134,6 +134,9 @@ console.log('arrow')
 */
 
 
+const exclaimThree = '${str.toUpperCase()}!!!';
+console.log(exclaimThree);
+
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -147,7 +150,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+console.log('declaration')
 // console.log('expression')
 
 
