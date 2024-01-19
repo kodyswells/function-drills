@@ -308,9 +308,10 @@ let sampleString = "Hi, my name is Kylo."
   Invoke the function, passing in the sampleString (above).
 */
 
-//CODE HERE
-
-
+function logUpperCase(str) {
+  console.log(str.toUpperCase());
+}
+logUpperCase(sampleString);
 ////////////////// PROBLEM 18 ////////////////////
 /*
   Write a function called emailCheck that takes in
