@@ -341,7 +341,13 @@ let goodEmail = emailCheck(newemail);
   Create a variable called `totalFrogs` and set it equal to your function invoked, passing in the amount of gold you are willing to spend.
 */
 
-//CODE HERE
+
+function buyingFrogs (gold) {
+  let chocolateFrog = gold/3;
+  return chocolateFrog;
+}
+let totalFrogs = buyingFrogs(12);
+console.log(totalFrogs);
 
 
 ////////////////// PROBLEM 20 ////////////////////
